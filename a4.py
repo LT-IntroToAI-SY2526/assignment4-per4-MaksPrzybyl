@@ -64,7 +64,7 @@ def play_tic_tac_toe() -> None:
 
     while not brd.game_over():
         print(brd)
-        move: str = input(f"Player {players[turn]} what is your move? ")
+        x
 
         if not is_int(move):
             raise ValueError(
@@ -83,7 +83,7 @@ def play_tic_tac_toe() -> None:
         print(f"Board full, cat's game!")
 
 
-"""if __name__ == "__main__":
+if __name__ == "__main__":
     # here are some tests. These are not at all exhaustive tests. You will DEFINITELY
     # need to write some more tests to make sure that your TTTBoard class is behaving
     # properly.
@@ -117,8 +117,10 @@ def play_tic_tac_toe() -> None:
 
 
     play_tic_tac_toe()
-pass"""
+pass
 
+#test code
+"""
 if __name__ == "__main__":
     brd = TTTBoard()
     print(brd)
@@ -150,3 +152,4 @@ if __name__ == "__main__":
     print(brd)
     brd.clear()
     print(brd)  # should be all *
+    """
